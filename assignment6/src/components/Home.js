@@ -1,12 +1,5 @@
 import React from "react";
 import "../App.css";
-import triangle from "../images/tringle.png";
-import About from "./About";
-import Experience from "./Experience";
-import Education from "./Education";
-import Skills from "./Skills";
-import Interest from "./Interest";
-import Awards from "./Awards";
 
 export default function Home() {
   return (
@@ -62,13 +55,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-
-      {/* <About />
-      <Experience />
-      <Education />
-      <Skills />
-      <Interest />
-      <Awards /> */}
     </>
   );
 }
